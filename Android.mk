@@ -6,9 +6,9 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),fleur)
+ifeq ($(TARGET_DEVICE),veux)
 
-$(info Including firmware for fleur...)
+$(info Including firmware for veux...)
 
 FIRMWARE_IMAGES := $(wildcard $(LOCAL_PATH)/images/*)
 
